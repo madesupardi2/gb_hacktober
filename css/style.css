@@ -3,3 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+button.trans-04 {
+    padding: 10px;
+    background: #448ef6;
+    border: navajowhite;
+    color: #fff;
+    font-size: 16px;
+    margin: 10px;
+    border-radius: 5px;
+}
