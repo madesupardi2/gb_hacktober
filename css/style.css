@@ -17,3 +17,12 @@ button.trans-04 {
 .wsize2.js-tilt {
     height: 200px;
 }
+
+.flex-col-c-m.size6.bor2 {
+    display: inline;
+    color: #fff;
+    font-family: arial;
+    font-size: 20px;
+    padding: 10px;
+    line-height: 200px;
+}
