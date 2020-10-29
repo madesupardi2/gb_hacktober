@@ -16,6 +16,21 @@
 			width: 60%;
 			margin: 50px auto;
 		}
+		.input100 {
+			padding: 6px 20px;
+			margin: 3px;
+			width: 300px;
+			background: #f7f7f7;
+			border: 1px #868686 solid;
+		}
+		.flex-col-c-m.size6.bor2 {
+			display: inline;
+			color: #fff;
+			font-family: arial;
+			font-size: 20px;
+			padding: 10px;
+			line-height: 200px;
+		}
 	</style>
 </head>
 <body>
@@ -23,7 +38,7 @@
 	
 	<div class="size1 bg0 where1-parent">
 		<!-- Coutdown -->
-		<div class="flex-c-m bg-img1 size2 where1 overlay1 where2 respon2" style="background-image: url('images/bg01.jpg');">
+		<div class="flex-c-m bg-img1 size2 where1 overlay1 where2 respon2" style="background-image: url('images/sea.jpg');">
 			<div class="wsize2 flex-w flex-c-m cd100 js-tilt">
 				<div class="flex-col-c-m size6 bor2 m-l-10 m-r-10 m-t-15">
 					<span class="l2-txt1 p-b-9 days">35</span>
@@ -60,12 +75,12 @@
 
 				<form class="contact100-form validate-form">
 					<div class="wrap-input100 m-b-10 validate-input" data-validate = "Name is required">
-						<input class="s2-txt1 placeholder0 input100" type="text" name="name" placeholder="Your Name">
+						<input required class="s2-txt1 placeholder0 input100" type="text" name="name" placeholder="Your Name">
 						<span class="focus-input100"></span>
 					</div>
 
 					<div class="wrap-input100 m-b-20 validate-input" data-validate = "Email is required: ex@abc.xyz">
-						<input class="s2-txt1 placeholder0 input100" type="text" name="email" placeholder="Email Address">
+						<input required class="s2-txt1 placeholder0 input100" type="text" name="email" placeholder="Email Address">
 						<span class="focus-input100"></span>
 					</div>
 
